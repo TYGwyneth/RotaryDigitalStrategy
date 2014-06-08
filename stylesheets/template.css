@@ -86,7 +86,7 @@ button {
 }
 
 #back {
-	position: absolute;
+	position: fixed;
 	top: 20px;
 	left: 40px;
 }
