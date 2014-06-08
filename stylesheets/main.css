@@ -1,0 +1,195 @@
+html {
+
+}
+
+body {
+	margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	font-size: 14px;
+}
+
+h1 {
+	margin: 0px;
+}
+
+button {
+	margin-top: 20px;
+	padding: 10px 20px;
+	background-color: transparent;
+	border: 2px solid #FFFFFF;
+	border-radius: 20px;
+	text-decoration: none;
+	color: white;
+	font-size: 1em;
+}
+
+button:hover {
+	cursor: pointer;
+	color: #ffd004;
+	border: 2px solid #ffd004;
+}
+
+/* COLORS
+
+*/
+
+.sectionWrap {
+	height: 800px;
+	width: 100%;
+}
+
+.sectionWrap .infoBox {
+	padding: 100px;
+}
+
+.sectionWrap .infoBox h1 {
+	text-align: center;
+	font-size: 3em;
+}
+
+/* HEADER */
+
+#header {
+	position: absolute;
+	height: 100px;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	background-color: white;
+	text-align: center;
+}
+
+#header #home {
+	width: 25%;
+	height: 100px;
+	background-color: #ec1b30;
+	float: left;
+}
+
+#header #home:hover {
+	cursor: pointer;
+}
+
+#header #research {
+	width: 25%;
+	height: 100px;
+	background-color: #01b4e7;
+	float: left;
+}
+
+#header #research:hover {
+	cursor: pointer;
+}
+
+#header #branding {
+	width: 25%;
+	height: 100px;
+	background-color: #005daa;
+	float: left;
+}
+
+#header #branding:hover {
+	cursor: pointer;
+}
+
+#header #tactical {
+	width: 25%;
+	height: 100px;
+	background-color: #17458f;
+	float: left;
+}
+
+#header #tactical:hover {
+	cursor: pointer;
+}
+
+#header h1 {
+	margin: 35px 0px;
+	font-size: 1.5em;
+}
+
+/* First Screen */
+
+#logo {
+	background: url("../img/logoWhite.png");
+	background-size: 100% 100%;
+	width: 250px;
+	height: 250px;
+	margin: 0px auto;
+}
+
+#firstWrap {
+	height: 800px;
+	background-color: #ec1b30;
+}
+
+#firstWrap #titleWrap {
+	padding-top: 120px;
+	text-align: center;
+}
+
+#firstWrap #titleWrap h1 {
+	font-size: 4em;
+	text-align: center;
+	font-weight: 800;
+	margin-top: 20px;
+}
+
+#firstWrap #titleWrap button {
+	background-color: #ffd004;
+	border: 2px solid #ffd004;
+	margin-top: 60px;
+}
+
+#firstWrap #titleWrap button:hover {
+	color: #ffdf5a;
+}
+
+/* SECTIONS */
+
+/* RESEARCH */
+
+.insOppWrap {
+	height: 800px;
+	background-color: #01b4e7;
+}
+
+.insOppWrap .infoBox {
+	padding-top: 200px;
+	text-align: center;
+}
+
+.insOppWrap .infoBox h1 {
+	margin-top: 100px;
+}
+
+/* BRANDING */
+
+.brandingWrap {
+	height: 800px;
+	background-color: #005daa;
+}
+
+.brandingWrap .infoBox {
+	padding-top: 300px;
+	text-align: center;
+}
+
+.brandingWrap .infoBox h1 {
+	margin-top: 100px;
+}
+
+/* TACTICAL OUTTAKES */
+
+.tacticalWrap {
+	height: 800px;
+	background-color: #17458f;
+	border-bottom: 3px dotted;
+}
+
+.tacticalWrap .infoBox	{
+	padding-top: 350px;	
+	text-align: center;
+}
+
