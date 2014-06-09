@@ -93,6 +93,8 @@ button {
 
 #back button:hover {
 	cursor: pointer;
+	color: #ffd004;
+	border: 2px solid #ffd004;
 }
 
 #narrativePageWrap {
@@ -105,6 +107,11 @@ button {
 	width: 100%;
 	background-color: #17458f;
 	display: inline-block;
+}
+
+#tacticalPageWrap img {
+	width: 600px;
+	text-align: center;
 }
 
 #pageWrap {
